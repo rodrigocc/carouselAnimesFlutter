@@ -1,6 +1,6 @@
 # carouselanimes
 
-A new Flutter project.
+Projeto Flutter para Criação de Carousel de Lista de Animes.
 
 ## Getting Started
 
