@@ -21,7 +21,7 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
         padding: EdgeInsets.fromLTRB(15.0, 15.0, 15.0, 0.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Align(
                 child: Icon(
@@ -31,11 +31,11 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
                 ),
                 alignment: Alignment.centerRight),
             Text(
-              'Choose your Anime',
+              'Anime List',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 46.0,
-                fontFamily: 'KalamRegular'
+                fontSize: 45.0,
+                fontFamily: 'Roboto'
               ),
             ),
             CarouselCardWidget(),
